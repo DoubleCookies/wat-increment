@@ -4,15 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+How do you usually increment your JS variable? Probably like this:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+{% highlight javascript %}
+let a = 0;
+a++;
+++a;
+a = a + 1;
+{% endhighlight %}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+It is absolutely correct, yeah!
 
+#### **And boring.**
 
-[jekyll-organization]: https://github.com/jekyll
+That's why I decided to find most weird/strange/etc. ways to increment variable. 
+And please, **try this at home, but not on work**. This is absolutely bad idea to use 
+those code snippets in production.
+
+## Credits
+- **[CSS Hell](https://csshell.dev/)** and **[HTMHell](https://www.htmhell.dev/)** for inspiration
+- My work colleagues who like doing weird things in free time. That's why I started this project! 
