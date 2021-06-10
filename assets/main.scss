@@ -4,6 +4,10 @@
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
+  font-family: 'Balsamiq Sans', sans-serif;
+}
+
 .site-header {
   border-top: 0;
 
@@ -12,15 +16,22 @@
 }
 
 .site-footer {
-  border-top: 2px solid #f5e5bc;
+  border-top: 4px solid #f5e5bc;
   padding: 10px 0;
 
   text-align: center;
-  font-family: 'Balsamiq Sans', sans-serif;
 }
 
 .post-link {
-  font-size: 18px;
+  font-size: 1.4em;
+}
+
+.post-divider {
+  margin: 2px 0 12px 0;
+  border: 0;
+  height: 3px;
+
+  background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
 }
 
 .social-media-list {

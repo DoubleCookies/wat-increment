@@ -15,7 +15,7 @@ a = a + 1;
 
 It is absolutely correct, yeah!
 
-#### **And boring.**
+**And boring.**
 
 That's why I decided to find most weird/strange/etc. ways to increment variable. 
 And please, **try this at home, but not on work**. This is absolutely bad idea to use 
