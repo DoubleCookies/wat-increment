@@ -13,7 +13,7 @@ a++;
 a = a + 1;
 {% endhighlight %}
 
-It is absolutely correct, yeah!
+It's absolutely correct, yeah!
 
 **And boring.**
 
@@ -23,4 +23,4 @@ those code snippets in production.
 
 ## Credits
 - **[CSS Hell](https://csshell.dev/)** and **[HTMHell](https://www.htmhell.dev/)** for inspiration
-- My work colleagues who like doing weird things in free time. That's why I started this project! 
+- My work colleagues who like doing weird things in free time. Thanks to them I started this project! 
