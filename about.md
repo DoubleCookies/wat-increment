@@ -18,7 +18,7 @@ It is absolutely correct, yeah!
 **And boring.**
 
 That's why I decided to find most weird/strange/etc. ways to increment variable. 
-And please, **try this at home, but not on work**. This is absolutely bad idea to use 
+You can always **try this at home, but please, not on work**. This is absolutely bad idea to use 
 those code snippets in production.
 
 ## Credits
