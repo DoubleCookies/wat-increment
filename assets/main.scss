@@ -44,7 +44,11 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   border: 0;
   height: 3px;
 
-  background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
+  background-image: linear-gradient(to right, #eac55b 25px, transparent 85%);
+}
+
+.post-list li:last-child .post-divider {
+  height: 0;
 }
 
 .social-media-list {
