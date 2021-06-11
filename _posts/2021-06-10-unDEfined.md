@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#2 unDEfined"
+title: "unDEfined"
 author: DoubleCookies
 ---
 This one is more complex:
