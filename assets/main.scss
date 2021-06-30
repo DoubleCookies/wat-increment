@@ -8,6 +8,15 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   font-family: 'Balsamiq Sans', sans-serif;
 }
 
+p, figure, pre {
+  margin-bottom: 8px !important;
+}
+
+.site-title, .site-title:visited {
+  color: black;
+  font-size: 32px;
+}
+
 .site-header {
   border-top: 0;
 
@@ -20,6 +29,16 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   padding: 10px 0;
 
   text-align: center;
+}
+
+.post-list h2 {
+  font-size: 1.8em;
+  margin-bottom: 2px;
+}
+
+.post-title {
+  font-size: 32px;
+  letter-spacing: 0;
 }
 
 .post-author {
@@ -40,11 +59,10 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
 }
 
 .post-divider {
-  margin: 2px 0 12px 0;
   border: 0;
-  height: 3px;
+  height: 4px;
 
-  background-image: linear-gradient(to right, #eac55b 25px, transparent 85%);
+  background-image: linear-gradient(to right, #eac55b 25px, #eac55bdd 50%, transparent 100%);
 }
 
 .post-list li:last-child .post-divider {
