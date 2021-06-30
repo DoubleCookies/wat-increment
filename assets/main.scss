@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   font-family: 'Balsamiq Sans', sans-serif;
 }
 
-p, figure, pre {
+p {
   margin-bottom: 8px !important;
 }
 
@@ -33,12 +33,16 @@ p, figure, pre {
 
 .post-list h2 {
   font-size: 1.8em;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
 }
 
 .post-title {
-  font-size: 32px;
+  font-size: 1.8em;
   letter-spacing: 0;
+}
+
+.post-header {
+  margin-bottom: 25px;
 }
 
 .post-author {
@@ -51,7 +55,7 @@ p, figure, pre {
 
 .post h2, .post h3, .post h4 {
   margin-bottom: 2px;
-  padding-top: 10px;
+  padding-top: 2px;
 }
 
 .post-link {
