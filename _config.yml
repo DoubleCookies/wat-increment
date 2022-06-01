@@ -21,7 +21,7 @@
 title: Wat increment
 description: >- # this means to ignore newlines until new param
   Collection of weird ways to increment variable.
-url: "https://doublecookies.github.io/wat-increment/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://doublecookies.github.io/wat-increment/"
 github_username:  DoubleCookies
 show_excerpts: true
 excerpt_separator: <!--more-->
