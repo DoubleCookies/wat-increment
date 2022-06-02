@@ -21,12 +21,13 @@
 title: Wat increment
 description: >- # this means to ignore newlines until new param
   Collection of weird ways to increment variable.
-url: "https://doublecookies.github.io/wat-increment/"
-baseurl: "/wat-increment/"
+url: "https://doublecookies.github.io/wat-increment"
+baseurl: "/wat-increment"
 github_username:  DoubleCookies
 show_excerpts: true
 excerpt_separator: <!--more-->
 paginate: 1
+paginate_path: /:num
 
 # Build settings
 theme: minima

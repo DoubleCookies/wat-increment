@@ -31,7 +31,7 @@ layout: default
     <!-- Pagination links -->
     <div class="pagination" style="text-align: center">
         {% if paginator.previous_page %}
-        <b><a href="{{ paginator.previous_page_path }}" class="previous">
+        <b><a href="/wat-increment/{{ paginator.previous_page_path }}/" class="previous">
             &#60;
         </a></b>
         {% endif %}
@@ -41,15 +41,15 @@ layout: default
                     {{ i }}
              {% else %}
                     {% if i == 1 %}
-                        <b><a href="/" class="next">1</a></b>
+                        <b><a href="/wat-increment/" class="next">1</a></b>
                     {% else %}
-                        <b><a href="/page{{ i }}" class="next">{{ i }}</a></b>
+                        <b><a href="/wat-increment/{{ i }}" class="next">{{ i }}</a></b>
                     {% endif %}
              {% endif %}
             {% endfor %}
         </span>
         {% if paginator.next_page %}
-        <b><a href="{{ paginator.next_page_path }}" class="next">
+        <b><a href="/wat-increment/{{ paginator.next_page_path }}/" class="next">
             &#62;
         </a></b>
         {% endif %}
