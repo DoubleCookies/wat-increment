@@ -31,7 +31,7 @@ layout: default
     <!-- Pagination links -->
     <div class="pagination" style="text-align: center">
         {% if paginator.previous_page %}
-        <b><a href="/wat-increment/{{ paginator.previous_page_path }}/" class="previous">
+        <b><a href="/wat-increment/{{ paginator.previous_page }}" class="previous">
             &#60;
         </a></b>
         {% endif %}
@@ -49,7 +49,7 @@ layout: default
             {% endfor %}
         </span>
         {% if paginator.next_page %}
-        <b><a href="/wat-increment/{{ paginator.next_page_path }}/" class="next">
+        <b><a href="/wat-increment/{{ paginator.next_page }}" class="next">
             &#62;
         </a></b>
         {% endif %}

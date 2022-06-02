@@ -26,7 +26,7 @@ baseurl: "/wat-increment"
 github_username:  DoubleCookies
 show_excerpts: true
 excerpt_separator: <!--more-->
-paginate: 1
+paginate: 5
 paginate_path: /:num
 
 # Build settings
