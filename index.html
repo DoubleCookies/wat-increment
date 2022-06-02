@@ -31,9 +31,15 @@ layout: default
     <!-- Pagination links -->
     <div class="pagination" style="text-align: center">
         {% if paginator.previous_page %}
-        <b><a href="/wat-increment/{{ paginator.previous_page }}" class="previous">
-            &#60;
-        </a></b>
+            {% if paginator.page == 2 %}
+                <b><a href="/wat-increment" class="previous">
+                    &#60;
+                </a></b>
+            {% else %}
+                <b><a href="/wat-increment/{{ paginator.previous_page }}" class="previous">
+                    &#60;
+                </a></b>
+            {% endif %}
         {% endif %}
         <span class="page_number">
             {% for i in (1..paginator.total_pages) %}
