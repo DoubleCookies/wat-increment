@@ -25,12 +25,15 @@ url: "https://doublecookies.github.io/wat-increment/"
 github_username:  DoubleCookies
 show_excerpts: true
 excerpt_separator: <!--more-->
+paginate: 5
+paginate_path: /:num
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
