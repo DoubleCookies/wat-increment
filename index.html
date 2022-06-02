@@ -10,7 +10,9 @@ layout: default
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}
         {%- if post.author -%}
-         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="post-author" itemprop="name">• {{ post.author }}</span></span>
+         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+             <span class="post-author" itemprop="name">• {{ post.author }}</span>
+         </span>
         {%- endif -%}
         </span>
             <h2>
@@ -27,21 +29,29 @@ layout: default
         {%- endfor -%}
     </ul>
     <!-- Pagination links -->
-    <div class="pagination">
+    <div class="pagination" style="text-align: center">
         {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">
-            Previous
-        </a>
-        {% else %}
-        <span class="previous">Previous</span>
+        <b><a href="{{ paginator.previous_page_path }}" class="previous">
+            &#60;
+        </a></b>
         {% endif %}
-        <span class="page_number ">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
+        <span class="page_number">
+            {% for i in (1..paginator.total_pages) %}
+             {% if i == paginator.page %}
+                    {{ i }}
+             {% else %}
+                    {% if i == 1 %}
+                        <b><a href="/" class="next">1</a></b>
+                    {% else %}
+                        <b><a href="/page{{ i }}" class="next">{{ i }}</a></b>
+                    {% endif %}
+             {% endif %}
+            {% endfor %}
+        </span>
         {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-        <span class="next ">Next</span>
+        <b><a href="{{ paginator.next_page_path }}" class="next">
+            &#62;
+        </a></b>
         {% endif %}
     </div>
     {%- endif -%}

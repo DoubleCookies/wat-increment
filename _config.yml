@@ -25,8 +25,7 @@ url: "https://doublecookies.github.io/wat-increment/"
 github_username:  DoubleCookies
 show_excerpts: true
 excerpt_separator: <!--more-->
-paginate: 5
-paginate_path: /:num
+paginate: 1
 
 # Build settings
 theme: minima
