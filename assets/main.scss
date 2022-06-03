@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   font-family: 'Balsamiq Sans', sans-serif;
 }
 
-h2#credits{
+h2#credits {
   margin-top: 10px;
   margin-bottom: 2px;
 }
@@ -107,4 +107,27 @@ p {
   background-color: rgba(255, 192, 65, 0.35);
   padding: 8px;
   border-radius: 4px;
+}
+
+//gh-logo in header
+.logo-link:hover, .logo-link:active {
+  text-decoration: none;
+}
+
+.gh-logo {
+  fill: #322f2f;
+  transition: 0.3s;
+  vertical-align: text-bottom;
+}
+
+.gh-logo:hover {
+  fill: black;
+  transition: 0.3s;
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+//footer
+.social-media-list .username {
+  font-size: 18px;
 }
