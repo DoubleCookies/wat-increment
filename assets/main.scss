@@ -46,16 +46,12 @@ p {
   letter-spacing: 0;
 }
 
-.post-header {
-  margin-bottom: 25px;
+.post-header, .post h1 {
+  margin-bottom: 15px;
 }
 
 .post-author {
   margin-left: 3px;
-}
-
-.post h1 {
-  margin-bottom: 5px;
 }
 
 .post h2, .post h3, .post h4 {
