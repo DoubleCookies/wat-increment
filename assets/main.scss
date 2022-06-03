@@ -4,6 +4,7 @@
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+//Global changes
 h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   font-family: 'Balsamiq Sans', sans-serif;
 }
@@ -17,6 +18,7 @@ p {
   margin-bottom: 8px !important;
 }
 
+//Header + footer
 .site-title, .site-title:visited {
   color: black;
   font-size: 32px;
@@ -36,6 +38,15 @@ p {
   text-align: center;
 }
 
+.social-media-list {
+  margin-bottom: 8px;
+}
+
+.social-media-list .username {
+  font-size: 18px;
+}
+
+//Posts
 .post-list h2 {
   font-size: 1.8em;
   margin-bottom: 8px;
@@ -74,10 +85,6 @@ p {
   height: 0;
 }
 
-.social-media-list {
-  margin-bottom: 8px;
-}
-
 //Pagination
 .pagination {
   text-align: center;
@@ -105,6 +112,22 @@ p {
   border-radius: 4px;
 }
 
+//Project logo in header
+.top-picture {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.picture-link {
+  transition: 0.3s;
+}
+
+.picture-link:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
 //gh-logo in header
 .logo-link:hover, .logo-link:active {
   text-decoration: none;
@@ -122,9 +145,4 @@ p {
   transition: 0.3s;
   transform: scale(1.2);
   text-decoration: none;
-}
-
-//footer
-.social-media-list .username {
-  font-size: 18px;
 }
