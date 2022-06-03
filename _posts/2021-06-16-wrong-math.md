@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wrong \"Math\""
+title: Wrong \"Math\"
 author: DoubleCookies
 ---
 Looks like today math wouldn't be on our side:

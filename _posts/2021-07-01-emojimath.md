@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "🤣 😂"
+title: 🤣 😂
 author: DoubleCookies
+link: https://github.com/DoubleCookies
 ---
 Emojis in code? Why not?
 

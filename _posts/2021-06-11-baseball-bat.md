@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Baseball bat"
+title: Baseball bat
 author: DoubleCookies
 ---
 This is first time when variable name isn't `a`:

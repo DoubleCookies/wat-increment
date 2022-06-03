@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simple math"
+title: Simple math
 author: DoubleCookies
 ---
 Okay, here we go!

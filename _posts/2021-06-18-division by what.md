@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Division?"
+title: Division?
 author: DoubleCookies
 ---
 *Just another math stuff:*

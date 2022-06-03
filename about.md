@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
-
+## About
 How do you usually increment your JS variable? Probably like this:
 
 {% highlight javascript %}

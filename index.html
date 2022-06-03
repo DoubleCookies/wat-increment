@@ -10,9 +10,15 @@ layout: default
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}
         {%- if post.author -%}
-         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-             <span class="post-author" itemprop="name">• {{ post.author }}</span>
-         </span>
+            {% if post.link %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="p-author h-card" itemprop="name"><a href={{ post.link }}>{{ post.author }}</a></span>
+            </span>
+            {% else %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="p-author h-card" itemprop="name">{{ post.author }}</span>
+            </span>
+            {% endif %}
         {%- endif -%}
         </span>
             <h2>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reduce something"
+title: Reduce something
 author: DoubleCookies
 ---
 This getting out of hand. Now there are ~~two~~ three variables!
