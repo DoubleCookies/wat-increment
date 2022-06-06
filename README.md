@@ -1,5 +1,6 @@
 # WAT increment
-The weirdest ways to do `a=a+1` in JS.
+Collection of the weirdest ways to do `a=a+1` in JS. You can always try this at home, **but not on work**. 
+This is absolutely bad idea to use those code snippets in production!
 
 Created with [Jekyll](https://jekyllrb.com/).
 
