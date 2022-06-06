@@ -17,7 +17,7 @@ It's absolutely correct!
 
 **And boring.**
 
-That's why I decided to find most weird/strange/etc. ways to increment variable in JS. 
+That's why I decided to find most weird/strange/etc. ways to increment variable in JS (and you can help with it!). 
 You can always try this at home, **but not on work**. This is absolutely bad idea to use 
 those code snippets in production.
 
