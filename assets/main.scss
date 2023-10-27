@@ -5,6 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 //Global changes
+
+// Special thing for removing "jumping" of centered blocks between pages with and without scrollbar
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, .site-footer, .post-link {
   font-family: 'Balsamiq Sans', sans-serif;
 }
